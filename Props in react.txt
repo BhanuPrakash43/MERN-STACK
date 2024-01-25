@@ -1,0 +1,8 @@
+How can i change the value of props
+= For that we can use destructuring and after that we can change the variable
+
+
+# Key prop
+- React use it optimise key items, it is like ifwe update a single key iten then react only have to render one key other wise react to have to render whole list
+
+if we use uuid in key prop then if items will be rerender then new uuid will be created then it does help in optimisation because react has to render whole items again.

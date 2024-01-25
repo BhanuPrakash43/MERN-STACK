@@ -1,0 +1,28 @@
+Rendering = the change of content on our action
+
+DOM = Programming interface which transform web interface into a object model so that we can render each element easily ( which can understand by browser)
+
+DOM Tree = Whene the browser loads a web page, it analyses the content of the page and creats this content in memory in the form of DOM tree
+
+Real DOM
+When Tech stacks are HTML, CSS & JS the browser uses real dOM
+Real DOM is a DOM tree which replaces old DOM tree with new one on rendering  
+ 
+1. Make a new DOM tree
+2. Replace old with new
+3. Analyze the DOM tree
+4. Visual Appearance   
+All these processes are happening in the browser, which affects the page performance this is the reason we need Framework      
+
+Load Time = Time between hitting the url and visual appearance 
+
+React JS uses virtual DOM
+Virtual DOM = It is a DOM tree operation in which new DOM tree is going to compare with old DOM tree and only change the difference in real DOM
+
+DOM Methods
+1. getElementById
+2. querySelector
+3. querySelectorAll
+4. getElementByClassName
+5. getElementByTagName
+
