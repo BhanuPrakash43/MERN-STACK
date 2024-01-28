@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+
 const endpoint = "https://jsonplaceholder.typicode.com/users";
 
 // component initial mount --> then fetch data
@@ -31,7 +32,7 @@ function LearnDataFetchingWithAxios() {
     <div>
       <ul>
         {users.map((user) => (
-          <li>{user.name}</li>
+          <li key={user.id}>{user.name}</li>
         ))}
       </ul>
     </div>
