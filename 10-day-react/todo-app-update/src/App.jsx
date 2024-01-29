@@ -1,9 +1,10 @@
 import { useState } from "react";
-import AddTodoForm from "./Components/AddTodoForm";
-import TodoList from "./Components/TodoList";
+import AddTodoForm from "./components/AddTodoForm";
+import TodoList from "./components/TodoList";
 import styles from "./App.module.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   const [todos, setTodos] = useState([
     {
@@ -50,6 +51,7 @@ function App() {
       })
     );
   }
+
   return (
     <>
       <ToastContainer
