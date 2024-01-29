@@ -42,7 +42,7 @@ function LearningUseEffect() {
         Increase Count 1
       </button>
       <hr />
-      <h2>Counter app 2 </h2>
+      <h2>Counter app 2 </h2> // Counter app
       <h2>{count2}</h2>
       <button onClick={() => setCount2((count) => count + 1)}>
         Increase Count 2
