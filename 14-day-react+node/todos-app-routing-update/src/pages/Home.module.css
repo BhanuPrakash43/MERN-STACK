@@ -1,0 +1,19 @@
+.home {
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  background-color: #ff7f11;
+  padding: 5px 35px 25px 35px;
+}
+
+.heading {
+  text-align: center;
+}
+.clearAllTodosBtn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #efefef;
+  color: #232323;
+}

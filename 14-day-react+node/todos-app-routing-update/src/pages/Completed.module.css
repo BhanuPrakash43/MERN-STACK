@@ -1,0 +1,14 @@
+.comp {
+    display: inline-block;
+    position: relative;
+}
+
+.completed {
+    max-width: 700px;
+    width: 40%;
+    margin: auto;
+    display: absolute;
+    position: relative;
+    padding: 30px;
+    background-color: #124559;
+}
