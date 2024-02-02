@@ -6,7 +6,7 @@ const app = express();
 const port = 8000;
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json());    // middleware | we can also use body-parser middleware
 
 app.get("/", (req, res) => {
   res.json({ message: "Hello from server" });
@@ -33,7 +33,7 @@ app.post("/api/v1/todos", (req, res) => {
   if (!("title" in req.body)) {
     res.status(400).json({ message: "title is missing" });
   } else if (!("completed" in req.body)) {
-    res.status(400).json({ message: "comleted is missing" });
+    res.status(400).json({ message: "completed is missing" });
   } else {
     const id = todos.length + 1;
     const newTodo = {
