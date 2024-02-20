@@ -1,0 +1,10 @@
+.productsPage {
+  max-width: 1400px;
+  width: 90%;
+  margin: auto;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
