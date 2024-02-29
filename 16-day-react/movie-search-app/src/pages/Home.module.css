@@ -1,0 +1,22 @@
+.searchInput {
+    max-width: 1400px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    padding: 10px 20px;
+    border: 2px solid red;
+}
+
+.searchInput input {
+    width: 50vw;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    /* border: 2px solid red; */
+}

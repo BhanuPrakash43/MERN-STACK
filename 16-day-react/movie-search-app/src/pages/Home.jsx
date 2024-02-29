@@ -1,12 +1,14 @@
 import { useState } from "react";
 import axios from "axios";
 import Movies from "../Components/Movies";
+import styles from "./Home.module.css";
 
 function Home() {
   const [movieSearchInput, setMovieSearchInput] = useState("marvel");
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  
   async function handleSubmit(e) {
     e.preventDefault();
     setIsLoading(true);
@@ -41,8 +43,8 @@ function Home() {
     }
   }
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className={styles.searchInput}>
+      <form className={styles.form} onSubmit={handleSubmit}>
         <input
           placeholder="marvel"
           type="text"
